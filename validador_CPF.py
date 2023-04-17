@@ -3,7 +3,7 @@ import sys
 import re
 while True:
     cpf=input('Por favor digite um cpf, ou digite "s" para sair: ')\
-        .replace(',','')\
+        .replace('.','')\
         .replace('-','')
 
     entrada_e_sequencial = cpf == cpf[0]*len(cpf)
